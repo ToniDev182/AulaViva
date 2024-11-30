@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AulaViva</title>
+    <link rel="icon" href="assets/logo/noto--books.svg">
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/js.js">  </script>
+    <script>setInterval('nextImage()', 3000);</script>
+</head>
+
+<body>
+    <header class="cabecera">
+        <h1><span class="aula">Aula</span><span class="viva">Viva</span></h1>
+    </header>
+    <nav class="navegador">
+        <div class="anchonavegador">
+
+            <img class="logo" src="assets/logo/vaadin--academy-cap.svg" alt="">
+
+            <ul class="option">
+                <li><!-- para realizar en el futuro -->
+                    <a href="index.html">🏠 Inicio</a>
+                </li>
+                <li><!-- para realizar en el futuro -->
+                    <a href="cursos.html">📚 Cursos</a>
+                </li>
+                <li><!-- para realizar en el futuro -->
+                    <a href="ejercicios.html">✏️ Ejercicios</a>
+                </li>
+                <li><!-- para realizar en el futuro -->
+                    <a href="academia.html">🧑‍🎓 Academia</a>
+                </li>
+                <li><!-- para realizar en el futuro -->
+                    <a href="contacto.html">☎️ Contacto</a>s
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="deslizador-Imagen">
+        <!-- Este el banner que ponemos por defecto, y se modifica cuando damos next o before ademas de cada 3 segundos  -->
+        <div id="banners">
+            <img class="imagenes-banners" src="assets/banner/banner1.jpg">
+        </div>
+        <div class="bontonesDesplazamiento">
+            <button class="b-anterior" onclick="beforeImage()"><img src="assets/img/fluent-emoji-flat--left-arrow.svg"
+                    alt="anterior" class="svg-icon"></button>
+            <button class="b-siguiente" onclick="nextImage()"><img src="assets/img/fluent-emoji-flat--right-arrow.svg"
+                    alt="siguiente" class="svg-icon"></button>
+        </div>
+    </div>
+    <main>
+        <section class="cursos">
+            <div class="cursostitle">
+                <h1><span class="aula">Nuestros</span><span class="viva"> cursos</span></h1>
+            </div>
+            <div class="cursoscontenido">
+                <span>
+                    <img src="assets/img/DAW.png">
+                    <p>Desarrollo web</p>
+                </span>
+                <span>
+                    <img src="assets/img/bachillerato.png">
+                    <p>bachillerato</p>
+                </span>
+                <span>
+                    <img src="assets/img/ESO.png">
+                    <p>Educacion Secundaria</p>
+                </span>
+
+            </div>
+        </section>
+
+        <div class="contenido-academia">
+            <section class="main-academia">
+                <img class="academia1" src="assets/img/academia.png">
+            </section>
+            <aside class="sidebar">
+                <h2 class="titulo">Sobre nosotros</h2>
+                <p class="coment">En AulaViva te ofrecemos el apoyo que necesitas para triunfar. Nos especializamos en
+                    la preparación de Bachillerato y en formación para DAW, con clases prácticas, personalizadas y
+                    diseñadas para alcanzar tus metas. Con nosotros, tu futuro está en buenas manos.</p>
+            </aside>
+        </div>
+
+
+        <div class="Contenido-ingles">
+            <div class="ancho-ingles">
+                <section class="main-ingles">
+                    <img class="ingles" src="assets/img/ingles.jpg">
+                </section>
+                <aside class="asideingles">
+                    <h2 class="titulo">Clases de ingles</h2>
+                    <p class="coment">Domina el inglés con clases prácticas y personalizadas para mejorar conversación,
+                        gramática y vocabulario. ¡Avanza con confianza!</p>
+                </aside>
+            </div>
+        </div>
+
+        <div class="contenido-escolar">
+            <span class="card-escolar">
+                <section>
+                    <img src="assets/img/math.png">
+                </section>
+                <article class="verde">
+                    <h2>Clases de matemáticas</h2>
+                    <ul>
+                        <li>Eso</li>
+                        <li>Bachiller</li>
+                    </ul>
+                </article>
+            </span>
+            <span class="card-escolar">
+                <section>
+                    <img src="assets/img/lengua.jpg">
+                </section>
+                <article class="verde">
+                    <h2>Clases de Lengua</h2>
+                    <ul>
+                        <li>Eso</li>
+                        <li>Bachiller</li>
+                    </ul>
+                </article>
+            </span>
+        </div>
+        <div class="contenido-daw">
+
+            <!-- Clases de PHP -->
+            <div class="card-daw">
+                <img src="assets/img/PHP.jpg" alt="Clases de PHP">
+                <article class="verde">
+                    <h2>Clases de PHP</h2>
+                    <ul>
+                        <li>Atención personalizada</li>
+                        <li>Certificaciones</li>
+                        <li>Salidas laborales</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="card-daw">
+                <img src="assets/img/JS.jpg" alt="Clases de PHP">
+                <article class="verde">
+                    <h2>Clases de PHP</h2>
+                    <ul>
+                        <li>Atención personalizada</li>
+                        <li>Certificaciones</li>
+                        <li>Salidas laborales</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="card-daw">
+                <img src="assets/img/html.png" alt="Clases de PHP">
+                <article class="verde">
+                    <h2>Clases de PHP</h2>
+                    <ul>
+                        <li>Atención personalizada</li>
+                        <li>Certificaciones</li>
+                        <li>Salidas laborales</li>
+                    </ul>
+                </article>
+            </div>
+
+        </div>
+    </main>
+
+
+<footer>
+    <section class="contenido-footer">
+        <div>
+            <h2>Categorias</h2>
+            <p>Matemáticas</p>
+            <p>Programación</p>
+            <p>Ingles</p>
+            <p>Lengua</p>
+            <p>Geografía</p>
+            <p>Historia</p>
+        </div>
+        <div>
+            <h2>Servicios</h2>
+            <p>Clases particulares</p>
+            <p>Asesoría académica</p>
+            <p>Preparación de exámenes</p>
+            <p>Traducción de textos</p>
+            <p>Resolución de ejercicios</p>
+            <p>Apoyo escolar</p>
+        </div>
+        <div>
+            <h2>Habilidades</h2>
+            <p>Trabajo en equipo</p>
+            <p>Resolución de problemas</p>
+            <p>Comunicación efectiva</p>
+            <p>Gestión del tiempo</p>
+            <p>Adaptabilidad</p>
+            <p>Creatividad</p>
+        </div>
+
+        <div class="redes">
+            <img src="assets/redes/youtube.svg" alt="">
+            <img src="assets/redes/linkedin.png" alt="">
+            <img src="assets/redes/whatsap.png" alt="">
+        </div>
+    </section>
+
+</footer>
+</body>
+</html>
+

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AulaViva</title>
+    <link rel="icon" href="assets/logo/noto--books.svg">
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/js.js">  </script>
+    <script>setInterval('nextImage()', 3000);</script>
+</head>
+
+<body>
+    <header class="cabecera">
+        <h1><span class="aula">Aula</span><span class="viva">Viva</span></h1>
+    </header>
+    <nav class="navegador">
+        <div class="anchonavegador">
+
+            <img class="logo" src="assets/logo/vaadin--academy-cap.svg" alt="">
+
+            <ul class="option">
+                <li><!-- para realizar en el futuro -->
+                    <a href="index.html">🏠 Inicio</a>
+                </li>
+                <li><!-- para realizar en el futuro -->
+                    <a href="cursos.html">📚 Cursos</a>
+                </li>
+                <li><!-- para realizar en el futuro -->
+                    <a href="ejercicios.html">✏️ Ejercicios</a>
+                </li>
+                <li><!-- para realizar en el futuro -->
+                    <a href="academia.html">🧑‍🎓 Academia</a>
+                </li>
+                <li><!-- para realizar en el futuro -->
+                    <a href="contacto.html">☎️ Contacto</a>s
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="deslizador-Imagen">
+        <!-- Este el banner que ponemos por defecto, y se modifica cuando damos next o before ademas de cada 3 segundos  -->
+        <div id="banners">
+            <img class="imagenes-banners" src="assets/banner/banner1.jpg">
+        </div>
+        <div class="bontonesDesplazamiento">
+            <button class="b-anterior" onclick="beforeImage()"><img src="assets/img/fluent-emoji-flat--left-arrow.svg"
+                    alt="anterior" class="svg-icon"></button>
+            <button class="b-siguiente" onclick="nextImage()"><img src="assets/img/fluent-emoji-flat--right-arrow.svg"
+                    alt="siguiente" class="svg-icon"></button>
+        </div>
+    </div>
+    <main>
+        <div class="contenido-academia">
+
+            <aside>
+                <img class="academia-asset" src="assets/img/academia2.png">
+                <iframe class="academia-asset" width="560" height="315"
+                    src="https://www.youtube.com/embed/vHOmgkRJ8cA?si=zs2XDkOfwmZdsKnz" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </aside>
+
+            <section class="descripciona">
+                
+                <article>
+                    <div class="cursosacademia">
+                        <h1><span class="aula">Aca</span><span class="viva">demia</span></h1>
+                    </div>
+                    <p class="intro">AulaViva
+                        En AulaViva nos dedicamos a transformar el aprendizaje en una experiencia significativa y
+                        personalizada. Contamos con un equipo de docentes altamente cualificados, especializados en la
+                        preparación para Bachillerato y en Desarrollo de Aplicaciones Web (DAW), brindando formación
+                        práctica que te ayudará a alcanzar tus metas académicas y profesionales.
+                        ¿Qué Ofrecemos?</p>
+                    <ul class="intro">
+                        <li>Clases dinámicas con grupos reducidos para una atención más personalizada.</li>
+                        <li>Material actualizado y enfocado en resultados, adaptado a tus necesidades.</li>
+                        <li>Talleres y actividades prácticas para reforzar el aprendizaje teórico.</li>
+                        <li>Horarios flexibles que se ajustan a tu ritmo de vida y necesidades.</li>
+                        <li>Asesoramiento personalizado para guiarte en tu camino académico y profesional.</li>
+                    </ul>
+                    <p class="intro">
+                        ¿Por Qué Elegirnos?En AulaViva no solo te preparamos para aprobar tus exámenes, sino que te
+                        formamos
+                        para que seas un profesional preparado para los desafíos del futuro. Nuestra metodología y
+                        compromiso
+                        con tu éxito nos respaldan con una alta tasa de aprobados y empleabilidad. ¡Con nosotros, tu
+                        futuro
+                        está
+                        en buenas manos!
+                        Ven a conocernos y da el siguiente paso hacia tu futuro con confianza. ¡Tu éxito comienza aquí!
+                    </p>
+                </article>
+            </section>
+
+        </div>
+    </main>
+</body>
+<footer>
+    <section class="contenido-footer">
+        <div>
+            <h2>Categorias</h2>
+            <p>Matemáticas</p>
+            <p>Programación</p>
+            <p>Ingles</p>
+            <p>Lengua</p>
+            <p>Geografía</p>
+            <p>Historia</p>
+        </div>
+        <div>
+            <h2>Servicios</h2>
+            <p>Clases particulares</p>
+            <p>Asesoría académica</p>
+            <p>Preparación de exámenes</p>
+            <p>Traducción de textos</p>
+            <p>Resolución de ejercicios</p>
+            <p>Apoyo escolar</p>
+        </div>
+        <div>
+            <h2>Habilidades</h2>
+            <p>Trabajo en equipo</p>
+            <p>Resolución de problemas</p>
+            <p>Comunicación efectiva</p>
+            <p>Gestión del tiempo</p>
+            <p>Adaptabilidad</p>
+            <p>Creatividad</p>
+        </div>
+
+        <div class="redes">
+            <img src="assets/redes/youtube.svg" alt="">
+            <img src="assets/redes/linkedin.png" alt="">
+            <img src="assets/redes/whatsap.png" alt="">
+        </div>
+    </section>
+
+</footer>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AulaViva</title>
+    <link rel="icon" href="assets/logo/noto--books.svg">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="js/js.js">  </script>
+    <script>setInterval('nextImage()', 3000);</script>
+</head>
+
+<body>
+    <header class="cabecera">
+        <h1><span class="aula">Aula</span><span class="viva">Viva</span></h1>
+    </header>
+    <nav class="navegador">
+        <div class="anchonavegador">
+
+            <img class="logo" src="assets/logo/vaadin--academy-cap.svg" alt="">
+
+            <ul class="option">
+                <li><!-- para realizar en el futuro -->
+                    <a href="index.html">🏠 Inicio</a>
+                </li>
+                <li><!-- para realizar en el futuro -->
+                    <a href="cursos.html">📚 Cursos</a>
+                </li>
+                <li><!-- para realizar en el futuro -->
+                    <a href="ejercicios.html">✏️ Ejercicios</a>
+                </li>
+                <li><!-- para realizar en el futuro -->
+                    <a href="academia.html">🧑‍🎓 Academia</a>
+                </li>
+                <li><!-- para realizar en el futuro -->
+                    <a href="contacto.html">☎️ Contacto</a>s
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="deslizador-Imagen">
+        <!-- Este el banner que ponemos por defecto, y se modifica cuando damos next o before ademas de cada 3 segundos  -->
+        <div id="banners">
+            <img class="imagenes-banners" src="assets/banner/banner1.jpg">
+        </div>
+        <div class="bontonesDesplazamiento">
+            <button class="b-anterior" onclick="beforeImage()"><img src="assets/img/fluent-emoji-flat--left-arrow.svg"
+                    alt="anterior" class="svg-icon"></button>
+            <button class="b-siguiente" onclick="nextImage()"><img src="assets/img/fluent-emoji-flat--right-arrow.svg"
+                    alt="siguiente" class="svg-icon"></button>
+        </div>
+    </div>
+    <main>
+        <div class="formulario">
+            <h1>Contacta con nosotros</h1>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <section class="contenido-contacto">
+            <article id="map">
+                <div>
+                    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+                    <script src="js/map.js"></script>
+                </div>
+            </article>
+            <div class="direccion">
+                <div class="cursosacademia">
+                    <h1><span class="aula">Aca</span><span class="viva">demia</span></h1>
+                </div>
+                <p>AulaViva</p>
+                <p>Calle de la Educación, 45</p>
+                <p>28001 Madrid, España</p>
+            </div>
+        </section>
+    </main>
+</body>
+<footer>
+    <section class="contenido-footer">
+        <div>
+            <h2>Categorias</h2>
+            <p>Matemáticas</p>
+            <p>Programación</p>
+            <p>Ingles</p>
+            <p>Lengua</p>
+            <p>Geografía</p>
+            <p>Historia</p>
+        </div>
+        <div>
+            <h2>Servicios</h2>
+            <p>Clases particulares</p>
+            <p>Asesoría académica</p>
+            <p>Preparación de exámenes</p>
+            <p>Traducción de textos</p>
+            <p>Resolución de ejercicios</p>
+            <p>Apoyo escolar</p>
+        </div>
+        <div>
+            <h2>Habilidades</h2>
+            <p>Trabajo en equipo</p>
+            <p>Resolución de problemas</p>
+            <p>Comunicación efectiva</p>
+            <p>Gestión del tiempo</p>
+            <p>Adaptabilidad</p>
+            <p>Creatividad</p>
+        </div>
+
+        <div class="redes">
+            <img src="assets/redes/youtube.svg" alt="">
+            <img src="assets/redes/linkedin.png" alt="">
+            <img src="assets/redes/whatsap.png" alt="">
+        </div>
+    </section>
+
+</footer>

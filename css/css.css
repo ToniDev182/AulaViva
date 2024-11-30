@@ -1,0 +1,456 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecera {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(255, 255, 255), #53AAF3);
+
+}
+
+.aula {
+    font-weight: 300;
+}
+
+/* Estilo para la palabra "Viva" */
+.viva {
+    color: #08783b;
+    font-weight: bold;
+}
+
+.anchonavegador {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+
+
+}
+
+
+.option {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.option li {
+    display: inline-block;
+}
+
+.option a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.deslizador-Imagen {
+    position: relative;
+    /* Necesario para que los botones se posicionen sobre el contenedor */
+    width: 100%;
+    height: 400px;
+}
+
+#banners {
+    width: 100%;
+    height: auto;
+}
+
+.imagenes-banners {
+    width: 100%;
+    height: 300px;
+}
+
+.bontonesDesplazamiento {
+    display: flex;
+    justify-content: space-between;
+    top: 30%;
+    width: 100%;
+    position: absolute;
+    /* Para que los botones estén sobre la imagen */
+
+}
+
+.b-anterior,
+.b-siguiente {
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    /* ponemos a full la transparencia*/
+    cursor: pointer;
+    pointer-events: auto;
+
+
+}
+
+.svg-icon {
+    width: 30px;
+    height: 30px;
+    display: block;
+    /* Asegura que se alineen correctamente */
+    margin: auto;
+}
+
+
+.cursostitle {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cursoscontenido {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row-reverse;
+
+}
+
+span img {
+    margin-bottom: -5px;
+}
+
+span p {
+    margin: 0;
+    padding: 10px;
+    background-color: #D9D9D9;
+}
+
+.contenido-academia {
+    display: flex;
+    margin-top: 5em;
+}
+
+.main-academia {
+    flex-grow: 1;
+    margin-top: 1em;
+    background-color: #40A1F2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sidebar {
+    flex-grow: 3;
+    margin-top: 1em;
+    background-color: #40A1F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+
+
+.academia1 {
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+
+.coment {
+
+    width: 80%;
+
+}
+
+
+.Contenido-ingles {
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
+    margin-top: 6em;
+
+
+
+}
+
+
+.ancho-ingles {
+    display: flex;
+    width: 60%;
+
+}
+
+.asideingles {
+    flex-grow: 3;
+    margin-top: 1em;
+    background-color: #40A1F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 25px 25px 0;
+}
+
+
+.asidecursos {
+    flex-grow: 3;
+    margin-top: 1em;
+    background-color: #38ACB7;
+    display: flex;
+    padding-left: 10px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 25px 25px 0;
+}
+
+.main-ingles {
+    flex-grow: 1;
+    margin-top: 1em;
+    background-color: #40A1F2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px 0 0 25px;
+}
+
+.ingles {
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+
+
+}
+
+.cur {
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+
+
+
+}
+
+.contenido-escolar {
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+    gap: 40vh;
+}
+
+.card-escolar {
+    background-color: #40A1F2;
+    text-align: center;
+    border-radius: 25px;
+
+}
+
+.card-escolar img {
+    border-radius: 10px;
+    margin: 15px;
+
+}
+
+.verde {
+    background-color: #12E064;
+    border-radius: 0 0 25px 25px;
+    padding: 20px;
+    text-align: left;
+}
+
+.contenido-daw {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 6em;
+    background-color: #40A1F2;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 50px;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+.card-daw {
+
+    border-radius: 25px 25px 25px 25px;
+}
+
+
+.card-daw img {
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    width: 250px;
+
+}
+
+footer {
+    margin-top: 8em;
+    background-color: #40A1F2;
+}
+
+.contenido-footer {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.redes {
+    margin-top: 200px;
+}
+
+
+.h5p {
+    margin: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h5p iframe {
+    margin: 40px;
+    border-radius: 15px;
+
+
+}
+
+.fondo-h5p {
+
+    background-color: #40A1F2;
+    border-radius: 25px;
+    margin: 25px;
+
+}
+
+.academia-asset {
+    margin: 40px;
+}
+
+.intro {
+
+    text-align: justify;
+    padding-top: 1em;
+    padding-right: 3em;
+    font-size: 1.4em;
+}
+
+.cursosacademia {
+    display: flex;
+    justify-content: left;
+    font-size: 1.8em;
+}
+
+.contenido-contacto {
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.direccion {
+    font-size: 1.4em;
+}
+
+#map {
+    width: 600px;
+    height: 400px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    margin: 20px;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    font-size: 1.1em;
+}
+
+input,
+textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+@media (max-width: 768px) {
+    .content-area {
+        flex-direction: column;
+
+
+    }
+
+    .sidebar {
+        margin-top: 0em;
+    }
+
+    .main-content {
+        margin-top: 0em;
+    }
+
+    .contenido-escolar {
+        margin-top: 4em;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+
+    }
+
+
+}
+
+
+
+
+
